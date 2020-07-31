@@ -8,9 +8,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "big.js": "^5.2.2",
     "dayjs": "^1.8.31",
+    "mathjs": "^7.1.0",
     "moment": "^2.27.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
   "description": ""
 }
