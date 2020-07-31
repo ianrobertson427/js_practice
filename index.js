@@ -3,7 +3,7 @@ var moment = require('moment');
 // var moment = require('math');
 
 
-console.log('hello from js');
+console.log('balls ill figure it out later rom js');
 
 
 const months = ["January", "February", "March", "April", "May", "June", "July"];
@@ -19,4 +19,6 @@ console.log(moment("19941031", "YYYYMMDD").fromNow());
 
 // console.log(round(e, 3);
 
-
+let x = "cat";
+let y = "fish";
+console.log(`${x}${y}`);

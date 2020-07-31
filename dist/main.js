@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "dist";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n// var moment = require('math');\n\n\nconsole.log('hello from js');\n\n\nconst months = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\", \"July\"];\n\n\n\nconst random = Math.floor(Math.random() * months.length);\nconsole.log(random, months[random]);\n\nconsole.log(moment().format('dddd'));\n\nconsole.log(moment(\"19941031\", \"YYYYMMDD\").fromNow());\n\n// console.log(round(e, 3);\n\n\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\"); // var moment = require('math');\n\n\nconsole.log('hello from js');\nvar months = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\", \"July\"];\nvar random = Math.floor(Math.random() * months.length);\nconsole.log(random, months[random]);\nconsole.log(moment().format('dddd'));\nconsole.log(moment(\"19941031\", \"YYYYMMDD\").fromNow()); // console.log(round(e, 3);\n\nvar x = \"cat\";\nvar y = \"fish\";\nconsole.log(\"\".concat(x).concat(y));\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
